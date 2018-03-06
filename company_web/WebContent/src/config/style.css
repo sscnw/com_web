@@ -1,0 +1,160 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+    background-attachment: scroll
+}
+ul, ol, li
+{
+    margin: 0;
+    padding: 0;
+}
+ul.leading
+{
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li.leading
+{
+    float: left;
+    margin-top: 2%;
+}
+
+a
+{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: white;
+}
+
+a.leading{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.2em;
+
+}
+ul.ending
+{
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+    overflow: hidden;
+    /*background-color: black;*/
+}
+
+li.ending
+{
+    float: left;
+
+    padding-left: 1.6%;
+}
+a.ending{
+    display: inline-block;
+    color: #131313;
+    text-align: center;
+
+    text-decoration: none;
+    font-size: 0.85em;
+
+}
+
+a:hover.leading{
+    background-color: white;
+    color: black;
+}
+
+div.home_img
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2.5%;
+    width: 66%;
+    background-color: #333;
+    padding: 1%;
+    color: white;
+}
+p
+{
+   text-indent: 2em;
+    color: white;
+}
+input._noDecoration
+{
+    border: none;
+    border-radius: 5px;
+}
+button {
+    display: inline-block;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    text-align: center;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+button span:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -30px;
+    transition: 0.5s;
+}
+
+button:hover span {
+    padding-right: 30px;
+}
+
+button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+div.tail
+{
+    position: fixed;
+    z-index:2008;
+    bottom:3.5%;
+    left:91%;
+    width:3.5%;
+    height:6.5%;
+    border: none;
+    background-color: transparent;
+}
+table
+{
+    border-collapse: separate;
+}
+input.signIn_Up
+{
+    height: 46px;
+    width: 380px;
+    margin-top: 10%;
+    font-size: 1.3em
+}
+input.signIn_Up::-webkit-input-placeholder {
+    padding-left: 5px;
+    padding-top: 0;
+    vertical-align: middle;
+}
+form
+{
+    margin: 0px;
+    padding: 0px;
+}
